@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    header ul    {
+        border: 1px solid green;
+    width: 450%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    list-style-type: none;
+    font-size: 1.2em;
+
+}
+    header a {
+        text-decoration: none;
+    }
+    header nav{
+        width: 100%;
+        padding: 0 20px  ;
+        border: 1px solid red;
+        background-color: beige;
+        display: flex;
+        justify-content: space-between;
+position: fixed;
+    }
+    #imagePrincipale{
+        background: url(../img/image-principale.jpj);
+        no-repeat fixed 5O% 50%;
+
+        padding-top:60 ;
+
+        height: 799px;
+
+    }
+    h1{
+        font-size: 6em;
+        margin-top: 100px;
+    }
+
+
+    h2{
+        font-size:  2em; 
+
+
+    }
+
+    h3{
+        font-size:2em ;
+    }
+    #premierTrait{
+text-decoration: solid;
+    }
+
+
+
+    #textIntro p{
+        letter-spacing: .5px;
+        line-height:1.6 ;
+        padding-top: 20px;
+
+    }
+
+        .imagePrestation h4{
+text-align: center;
+margin: 15px;
+font-weight: 300;
+font-size: 1.8em;
+    }
+    .imagePrestation img{
+
+
+    }
+
+    .img1{
+        width: 200px;
+        
+    }
